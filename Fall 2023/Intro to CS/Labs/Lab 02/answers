@@ -1,0 +1,11 @@
+cups_of_butter_for_10_scones = 1/3
+cups_of_flour_for_10_scones = 7/3
+cups_of_milk_for_10_scones = 3/4
+
+cups_of_butter_for_25_scones = cups_of_butter_for_10_scones * 2.5
+cups_of_flour_for_25_scones = cups_of_flour_for_10_scones * 2.5
+cups_of_milk_for_25_scones = cups_of_milk_for_10_scones * 2.5
+
+print("To make 25 scones use " + str(cups_of_butter_for_25_scones) + " cups of butter, " + str(cups_of_flour_for_25_scones)+ " cups of flour, and "+str(cups_of_milk_for_25_scones)+ " cups of milk.")
+
+  
