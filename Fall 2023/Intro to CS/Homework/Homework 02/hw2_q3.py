@@ -1,5 +1,5 @@
 """
-Author: [Your name here]
+Author: Ana Paredes
 Assignment / Part: HW2 - Q1 (etc.)
 Date due: Oct 6, 11:59pm
 I pledge that I have completed this assignment without
