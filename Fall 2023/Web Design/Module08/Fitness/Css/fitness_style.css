@@ -1,0 +1,193 @@
+/*
+  Author: Ana Paredes
+  Date: 10/16/2023
+  File name: fitness_navigation.css
+*/
+
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+article,
+aside {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  width: 25%;
+  float: left;
+}
+
+nav {
+  width: 70%;
+  float: right;
+  margin: 5em 3em 0 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+article {
+  padding: 2%;
+}
+
+article h3 {
+  text-align: center;
+}
+
+article img {
+  margin: 0 auto;
+}
+
+article ul {
+  margin-left: 10%;
+}
+
+article:nth-of-type(2){
+  background-color: rgba(204, 204, 204, 0.3);
+}
+
+main {
+  clear: left;
+  background-color: #fff;
+  padding: 2%;
+  font-size: 1.25em;
+}
+
+main h1 {
+  font-size: 1.8em;
+}
+
+article h3 {
+  font-size: 1.75em;
+}
+
+.pic-text {
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+aside {
+  text-align: center;
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight: bold;
+  padding: 2%;
+  background-color: rgba(204, 204, 204, 0.5);
+  box-shadow: 5px 5px 11px #000;
+  text-shadow: 5px 5px 5px #b3b3b3;
+  border-radius: 0 15px;
+}
+
+.grind-item4 {
+  grid-column: 1 3;
+
+}
+
+.frame {
+  opacity: 0.9;
+}
+
+.frame:hover{
+  opacity: 1;
+  box-shadow: 8px 8px 10px #808080;
+}
+
+#weights,
+#cardio,
+#training {
+  width: 29%;
+  float: left;
+  margin: 0 2%;
+}
+
+#exercises {
+  clear: left;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #f2f2f2;
+  padding: 1% 2%;
+}
+
+#exercises dt {
+  font-weight: bold;
+}
+
+#exercises dd {
+  padding: 0.5% 1% 2% 0;
+}
+
+.external-link {
+  color: #666600;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#contact {
+  text-align: center;
+  width: 100%;
+}
+
+#contact a {
+  color: #666600;
+  text-decoration: none;
+}
+
+.map {
+  border: 8px solid #000;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.action {
+  font-size: 1.35em;
+  color: #666600;
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #fff;
+  padding: 0 1em;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
+}
