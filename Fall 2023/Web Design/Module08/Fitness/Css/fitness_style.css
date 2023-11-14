@@ -4,6 +4,10 @@
   File name: fitness_navigation.css
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body,
 header,
 nav,
@@ -12,6 +16,8 @@ footer,
 h1,
 div,
 img,
+figure,
+figcaption,
 article,
 aside {
   margin: 0;
@@ -31,6 +37,12 @@ img {
 header {
   width: 25%;
   float: left;
+}
+
+.frame {
+  position: relative;
+  max-width: 450px;
+  margin: 2% auto;
 }
 
 nav {
@@ -96,6 +108,14 @@ article h3 {
 }
 
 .pic-text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffff;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-family: Verdana, Arial, sans-serif;
   font-size: 1.5em;
   padding: 20px;
 }
@@ -114,7 +134,12 @@ aside {
 
 .grind-item4 {
   grid-column: 1 3;
+}
 
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
 }
 
 .frame {
