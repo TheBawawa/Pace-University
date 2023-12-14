@@ -1,10 +1,20 @@
+"""
+Author: Ana Paredes
+Assignment / Part: HW6 - Q3
+Date due: 12/07/23, 11:59pm
+I pledge that I have completed this assignment without
+collaborating with anyone else, in conformance with the
+Pace University Policies and Procedures on Academic
+Misconduct.
+"""
+
 def create_pokedex(filepath):
     file_data = open(filepath,'r')
     lines = file_data.readlines()
     data_list = []
     pokedex = {}
 
-    for index_line in range(len(lines)):
+    for index_line in range(1, len(lines)):
       if index_line != 0:
         data_list.append(lines[index_line])
 
