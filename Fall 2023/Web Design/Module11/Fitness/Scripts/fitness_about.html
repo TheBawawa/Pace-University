@@ -1,9 +1,19 @@
 <!DOCTYPE html>
+<!-- This website S was created by: Ana Paredes -->
+
 <html>
   <head>
     <title>Forward Fitness Club</title>
     <meta charset="utf-8" />
     <link href="/Fitness/Css/fitness_style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Forward Fitness Club has many fitness classes to meet your needs, including boot camp, cardio, kickboxing, spinning, yoga, and Zumba.">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One%7CRoboto+Slab&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
   </head>
   <body>
 
@@ -100,6 +110,12 @@
           </dt>
         </dl>
 
+        <video controls id="example">
+          <source id="vid-src" src="/" type="video/mp4">
+          <track id="despsrc" src="des" kind="descriptions" srclang="en" label="English Descriptions">
+          <p>Your browser does not support the video element.</p>
+      </video>
+
         <p>
           For more information about how to stay active, visit the <a href="https://www.hhs.gov/fitness/be-active/fitness_home.html" target="_blank" class="external-link">U.S Deparment of Health and Human Services</a>.</p>
         </p>
@@ -107,8 +123,11 @@
 
       </main>
       <footer>
-        <p>&copy; Copyright 2011. All rights reserved.</p>
-        <a id="email"><p>forwardfitness@club.net</p></a>
+        <div class="copyright">
+          <p>&copy; Copyright 2011. All rights reserved.</p>
+        <a id="email"><p>forwardfitness@club.net</p></a>  
+        </div>
       </footer>
+      <script src="scripts/script.js"></script>
     </body>
 </html>
