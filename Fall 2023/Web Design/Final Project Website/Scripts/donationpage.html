@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/Styles/dono-page.css">
+    </head>
+    <body>
+        <div id="donoform">
+            <form>
+                <fieldset>
+                    <legend>Donation Form</legend>
+        
+                    <label for="ccn">Credit Card Number:</label>
+                    <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" 
+                           autocomplete="cc-number" maxlength="19" 
+                           placeholder="xxxx xxxx xxxx xxxx" required>
+        
+                    <label>Card Holder</label>
+                    <input class="card-name" placeholder="FIRST NAME LAST NAME" type="text" required />
+        
+                    <label>Exp. Date</label>
+                    <input class="card-name" placeholder="xx/xx" type="text" maxlength="5" required />
+        
+                    <label>CCV</label>
+                    <input class="card-name" placeholder="xxx" type="text" maxlength="3" required />
+        
+                    <button type="submit" class="submit">Submit</button>
+                    <a href="/Scripts/get-involved.html" class="submit">Back to page</a>
+        
+                </fieldset>
+        
+              
+            </form>
+        </div>
+    </body>
+</html>

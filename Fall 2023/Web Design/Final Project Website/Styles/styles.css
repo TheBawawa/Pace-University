@@ -1,3 +1,5 @@
+
+/*General and reseting styles*/
 * {
   font-family: "Helvetica Neue", Helvetica;
 }
@@ -22,10 +24,7 @@ header {
   transition: background-color 0.3s ease; /* Smooth color transition on scroll */
 }
 
-header:hover {
-  /* background-color: #233140; Darken the header on hover */
-}
-
+/*Logo styles*/
 .logo h1,
 img {
   display: inline;
@@ -44,6 +43,8 @@ img {
   margin: 0 40px 0px;
 }
 
+
+/*Navigation styles*/
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -78,6 +79,8 @@ section {
   padding: 2rem;
 }
 
+
+/*Footer styles*/
 footer {
   background-color: #2c3e50; /* Dark grey footer background */
   color: #fff;
@@ -85,6 +88,7 @@ footer {
   padding: 1rem;
   margin-top: auto; /* Push the footer to the bottom */
 }
+
 
 /* Responsive Design */
 @media screen and (max-width: 600px) {
@@ -98,8 +102,8 @@ footer {
   }
 }
 
-/* Hero Section */
 
+/* Hero Section */
 #home {
   margin: 0;
   padding: 0;
@@ -138,6 +142,7 @@ footer {
   margin: 0;
 }
 
+
 /* Testimonials Section */
 #testimonials {
   background-color: #2c3e50;
@@ -161,6 +166,7 @@ footer {
   font-weight: bold;
 }
 
+
 /* Featured Artists Section */
 #featured-artists {
   background-color: #34495e;
@@ -178,7 +184,6 @@ footer {
 .featured-artist-2 {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
   margin-bottom: 2rem;
 }
 
@@ -186,7 +191,9 @@ footer {
 .featured-artist-2 img {
   width: 400px;
   height: 400px;
-  border-radius: 8px; /* Add a subtle border-radius to images */
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 55px;
 }
 
 .featured-artist h3,
@@ -194,9 +201,78 @@ footer {
   margin-top: 1rem;
 }
 
+#artist-name {
+  display: flex;
+  margin-left: 7%;
+}
+
 #artist-2-name {
   display: flex;
+  margin-right: 7%;
   justify-content: flex-end;
+}
+
+.featured-artist-info {
+  text-align: center;
+  background-color: rgb(233, 223, 204);
+  border-radius: 100px;
+  color: #000;
+  padding: 60px 35px;
+  font-size: 23px;
+}
+
+/*Featured art style*/
+#featured-art {
+  background-color: #34495e;
+  color: #fff;
+  padding: 2rem;
+}
+
+.featured-art {
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.featured-art-2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.featured-art img,
+.featured-art-2 img {
+  width: 400px;
+  height: 400px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 55px;
+}
+
+.featured-art h3,
+.featured-art-2 h3 {
+  margin-top: 1rem;
+}
+
+#art-name {
+  display: flex;
+  margin-left: 7%;
+}
+
+#art-2-name {
+  display: flex;
+  margin-right: 7%;
+  justify-content: flex-end;
+}
+
+.featured-art-info {
+  text-align: center;
+  background-color: rgb(233, 223, 204);
+  border-radius: 100px;
+  color: #000;
+  padding: 60px 35px;
+  font-size: 23px;
 }
 
 /* Latest News Section */
@@ -214,45 +290,50 @@ footer {
   margin-bottom: 0.5rem;
 }
 
+
+/*About us info styles*/
 #about h2,
 #about h3 {
-  font-size: 2.5rem; /* Increased font size for section titles */
+  font-size: 2.5rem; 
 }
 
 #about p {
-  font-size: 1.4rem; /* Increased font size for paragraph text */
-  line-height: 1.6; /* Improved line height for better readability */
+  font-size: 1.4rem; 
+  line-height: 1.6;
 }
+
 
 /* Additional Styles for Get Involved Page */
 #get-involved h2,
 #get-involved h3 {
-  font-size: 2rem; /* Increased font size for section and subsection titles */
+  font-size: 2rem; 
 }
 
 #get-involved ul,
 #get-involved li {
-  font-size: 1.2rem; /* Increased font size for unordered list and list items */
+  font-size: 1.2rem; 
 }
 
 #artists h2 {
-  font-size: 2.5rem; /* Increased font size for section titles */
+  font-size: 2.5rem; 
 }
 
 #artists p {
-  font-size: 1.4rem; /* Increased font size for paragraph text */
-  line-height: 1.6; /* Improved line height for better readability */
+  font-size: 1.4rem; 
+  line-height: 1.6; 
 }
 
 .artwork img {
-  width: 100%; /* Make the image width 100% to cover the container */
-  height: auto; /* Ensure the image maintains its aspect ratio */
+  width: 100%;
+  height: auto; 
 }
 
 .artwork p {
-  font-size: 1.2rem; /* Increased font size for artwork descriptions */
+  font-size: 1.2rem;
 }
 
+
+/*Contact styles*/
 .contact-info a {
   color: aqua;
 }
@@ -269,24 +350,24 @@ footer {
   margin: 0 10px;
 }
 
-.image-grid {
+
+
+
+/*Gallery images style*/
+.image-grid-art {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px; /* Adjust the gap between images as needed */
+  gap: 25px; 
 }
 
-/* Style for each image */
-.image-grid img {
-  width: 400px;
-  height: 400px;
+.image-grid-art img {
   padding: 0 0;
   margin: 0 0;
-  border-radius: 5px; /* Optional: Add rounded corners to the images */
+  max-height: 500px;
+  border-radius: 5px;
 }
 
-/* Artworks Individual Hovers */
-
-.image-grid img:hover {
+.image-grid-art img:hover {
   transform: scale(1.1);
   transition: 0.5s;
   cursor: pointer;
@@ -298,11 +379,11 @@ footer {
   display: overlay;
 }
 
-.image-container:hover .text-overlay {
+.image-container-art:hover .text-overlay-art {
   opacity: 1;
 }
 
-.text-overlay {
+.text-overlay-art {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -313,7 +394,7 @@ footer {
   color: white;
 }
 
-.image-container {
+.image-container-art {
   position: relative;
   overflow: hidden;
   display: inline-block;
@@ -321,6 +402,13 @@ footer {
   padding: 0;
 }
 
+.image-container-art img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*Questions form style*/
 form {
   background-color:rgb(234, 234, 234);
   padding: 20px;
@@ -363,7 +451,10 @@ input[type="submit"]:hover {
   padding: auto;
 }
 
-.image-row {
+
+
+/* About us pictures*/
+.image-row-about {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
@@ -371,28 +462,38 @@ input[type="submit"]:hover {
 }
 
 .image-row img {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  max-height: 400px;
   border-radius: 8px;
   margin-bottom: 10px;
 }
 
-.image-container {
+.image-container-member {
   text-align: center;
 }
 
-.image-container img {
+.image-container-member img {
   width: 100%;
-  max-width: 300px;
-  height: auto;
+  max-width: 400px;
+  height: 330px;
   border-radius: 8px;
   margin-bottom: 10px;
 }
 
-.image-text {
+.image-text-member {
   color: white;
+  width: 300px;
   background-color: rgb(116, 41, 41);
   border-radius: 15px;
+}
+
+.donate-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
