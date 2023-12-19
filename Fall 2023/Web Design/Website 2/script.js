@@ -1,0 +1,1 @@
+// You can add JavaScript functionalities as needed, such as interactive features, form validation, etc.

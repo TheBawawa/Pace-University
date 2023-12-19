@@ -1,0 +1,209 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #34495e; /* Slightly warmer dark grey background */
+    color: #fff; /* White text color */
+}
+
+header {
+    background-color: #2c3e50; /* Dark grey header background */
+    color: #fff; /* White text color */
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth color transition on scroll */
+}
+
+header:hover {
+    background-color: #233140; /* Darken the header on hover */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+}
+
+nav li {
+    margin: 0 20px;
+    transition: transform 0.3s ease; /* Smooth transform on hover */
+}
+
+nav li:hover {
+    transform: translateY(-5px); /* Move the navigation link slightly on hover */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+section {
+    flex: 1; /* Allow sections to grow and take available space */
+    padding: 2rem;
+}
+
+footer {
+    background-color: #2c3e50; /* Dark grey footer background */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column; /* Stack navigation links on top of each other */
+        text-align: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+
+/* Hero Section */
+.hero-banner {
+    position: relative;
+    height: 100vh; /* Set the height of the hero banner to cover the entire viewport */
+    overflow: hidden;
+}
+
+.hero-banner img {
+    width: 100%; /* Make the image width 100% to cover the container */
+    height: auto; /* Ensure the image maintains its aspect ratio */
+    filter: brightness(50%); /* Dim the hero image */
+    transition: filter 0.5s ease; /* Smooth filter transition on hover */
+}
+
+.hero-banner:hover img {
+    filter: brightness(100%); /* Remove filter on hover */
+}
+
+.quote-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.quote-overlay p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 2rem;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Featured Artists Section */
+#featured-artists {
+    background-color: #34495e;
+    color: #fff;
+    padding: 2rem;
+}
+
+.featured-artist {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.featured-artist img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a subtle border-radius to images */
+}
+
+.featured-artist h3 {
+    margin-top: 1rem;
+}
+
+/* Latest News Section */
+#latest-news {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 2rem;
+}
+
+.news-item {
+    margin-bottom: 2rem;
+}
+
+.news-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+#about h2,
+#about h3 {
+    font-size: 2.5rem; /* Increased font size for section titles */
+}
+
+#about p {
+    font-size: 1.4rem; /* Increased font size for paragraph text */
+    line-height: 1.6; /* Improved line height for better readability */
+}
+
+/* Additional Styles for Get Involved Page */
+#get-involved h2,
+#get-involved h3 {
+    font-size: 2rem; /* Increased font size for section and subsection titles */
+}
+
+#get-involved ul,
+#get-involved li {
+    font-size: 1.2rem; /* Increased font size for unordered list and list items */
+}
+
+#artists h2 {
+    font-size: 2.5rem; /* Increased font size for section titles */
+}
+
+#artists p {
+    font-size: 1.4rem; /* Increased font size for paragraph text */
+    line-height: 1.6; /* Improved line height for better readability */
+}
+
+.artwork img {
+    width: 100%; /* Make the image width 100% to cover the container */
+    height: auto; /* Ensure the image maintains its aspect ratio */
+}
+
+.artwork p {
+    font-size: 1.2rem; /* Increased font size for artwork descriptions */
+}

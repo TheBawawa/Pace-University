@@ -30,7 +30,7 @@ class Student:
     average = total / len(scores)
     #print(average)
 
-    if average >= passing_grade:
+    if average >= passing_grade:  
       return True
     else:
       return False
@@ -38,7 +38,7 @@ class Student:
   
   
 
-me = Student("Sebastián", 402, "/Users/junjiequ/Desktop/Pace-University/Fall 2023/Intro to CS/Labs/Lab 17/grades.csv")
+me = Student("Sebastián", 402, "filepath.csv") #HERE GOES THE FILE PATH
 
 print(me.name)
 print(me.id)
